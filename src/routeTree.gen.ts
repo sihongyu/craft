@@ -8,81 +8,80 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-// Import Routes
+import { Route as GamesImport } from "./routes/games"
+import { Route as GamesSlugImport } from "./routes/games.$slug"
+import { Route as LeaderboardImport } from "./routes/leaderboard"
+import { Route as ProfileImport } from "./routes/profile"
+import { Route as NewsImport } from "./routes/news"
+import { Route as rootRouteImport } from "./routes/__root"
+import { Route as indexImport } from "./routes/index"
+import { createFileRoute } from "@tanstack/react-router"
 
-import { Route as rootRoute } from './routes/__root'
-import { Route as IndexImport } from './routes/index'
-
-// Create/Update Routes
-
-const IndexRoute = IndexImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => rootRoute,
+const IndexRoute = indexImport.update({
+  id: "/",
+  path: "/",
+  getParentRoute: () => rootRouteImport,
 } as any)
 
-// Populate the FileRoutesByPath interface
+const GamesRoute = GamesImport.update({
+  id: "/games",
+  path: "/games",
+  getParentRoute: () => rootRouteImport,
+} as any)
 
-declare module '@tanstack/react-router' {
-  interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexImport
-      parentRoute: typeof rootRoute
-    }
+const GamesSlugRoute = GamesSlugImport.update({
+  id: "/$slug",
+  path: "/$slug",
+  getParentRoute: () => GamesRoute,
+} as any)
+
+const LeaderboardRoute = LeaderboardImport.update({
+  id: "/leaderboard",
+  path: "/leaderboard",
+  getParentRoute: () => rootRouteImport,
+} as any)
+
+const ProfileRoute = ProfileImport.update({
+  id: "/profile",
+  path: "/profile",
+  getParentRoute: () => rootRouteImport,
+} as any)
+
+const NewsRoute = NewsImport.update({
+  id: "/news",
+  path: "/news",
+  getParentRoute: () => rootRouteImport,
+} as any)
+
+declare module "@tanstack/react-router" {
+  interface FileRouteTypes {
+    children: never
+    parent: never
+    path: "" | "/" | "/games" | "/games/$slug" | "/leaderboard" | "/profile" | "/news"
   }
 }
 
-// Create and export the route tree
-
-export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
-}
-
-export interface FileRoutesByTo {
-  '/': typeof IndexRoute
-}
-
-export interface FileRoutesById {
-  __root__: typeof rootRoute
-  '/': typeof IndexRoute
-}
+const GamesRouteWithChildren = GamesRoute._addFileChildren(GamesRouteChildren)
 
 export interface FileRouteTypes {
-  fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
-  fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
-  fileRoutesById: FileRoutesById
+  children: typeof GamesRouteWithChildren
+  parent: typeof rootRouteImport
 }
 
-export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
-}
-
-const rootRouteChildren: RootRouteChildren = {
+const rootRouteChildren = {
+  GamesRoute: GamesRouteWithChildren,
   IndexRoute: IndexRoute,
+  LeaderboardRoute: LeaderboardRoute,
+  ProfileRoute: ProfileRoute,
+  NewsRoute: NewsRoute,
 }
 
-export const routeTree = rootRoute
+const GamesRouteChildren = {
+  GamesSlugRoute: GamesSlugRoute,
+}
+
+export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
 
-/* ROUTE_MANIFEST_START
-{
-  "routes": {
-    "__root__": {
-      "filePath": "__root.tsx",
-      "children": [
-        "/"
-      ]
-    },
-    "/": {
-      "filePath": "index.tsx"
-    }
-  }
-}
-ROUTE_MANIFEST_END */
+routeTree.buildRouteTree()
