@@ -1,1 +1,96 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiCmltcG9ydCB7IFNlcGFyYXRvciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zZXBhcmF0b3IiCmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iCmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IgppbXBvcnQgeyBHYW1lcGFkMiB9IGZyb20gImx1Y2lkZS1yZWFjdCIKCmZ1bmN0aW9uIEdpdGh1Ykljb24oeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8c3ZnIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9ImN1cnJlbnRDb2xvciI+CiAgICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDc3IDIgMiA2LjQ4NCAyIDEyLjAxN2MwIDQuNDI1IDIuODY1IDguMTggNi44MzkgOS41MDQuNS4wOTIuNjgyLS4yMTcuNjgyLS40ODMgMC0uMjM3LS4wMDgtLjg2OC0uMDEzLTEuNzAzLTIuNzgyLjYwNS0zLjM2OS0xLjM0My0zLjM2OS0xLjM0My0uNDU0LTEuMTU4LTEuMTEtMS40NjYtMS4xMS0xLjQ2Ni0uOTA4LS42Mi4wNjktLjYwOC4wNjktLjYwOCAxLjAwMy4wNyAxLjUzMSAxLjAzMiAxLjUzMSAxLjAzMi44OTIgMS41MyAyLjM0MSAxLjA4OCAyLjkxLjgzMi4wOTItLjY0Ny4zNS0xLjA4OC42MzYtMS4zMzgtMi4yMi0uMjUzLTQuNTU1LTEuMTEzLTQuNTU1LTQuOTUxIDAtMS4wOTMuMzktMS45ODggMS4wMjktMi42ODgtLjEwMy0uMjUzLS40NDYtMS4yNzIuMDk4LTIuNjUgMCAwIC44NC0uMjcgMi43NSAxLjAyNkE5LjU2NCA5LjU2NCAwIDAxMTIgNi44NDRjLjg1LjAwNCAxLjcwNS4xMTUgMi41MDQuMzM3IDEuOTA5LTEuMjk2IDIuNzQ3LTEuMDI3IDIuNzQ3LTEuMDI3LjU0NiAxLjM3OS4yMDIgMi4zOTguMSAyLjY1MS42NC43IDEuMDI4IDEuNTk1IDEuMDI4IDIuNjg4IDAgMy44NDgtMi4zMzkgNC42OTUtNC41NjYgNC45NDMuMzU5LjMwOS42NzguOTIuNjc4IDEuODU1IDAgMS4zMzgtLjAxMiAyLjQxOS0uMDEyIDIuNzQ3IDAgLjI2OC4xOC41OC42ODguNDgyQTEwLjAxOSAxMC4wMTkgMCAwMDIyIDEyLjAxN0MyMiA2LjQ4NCAxNy41MjIgMiAxMiAyeiIgLz4KICAgIDwvc3ZnPgogICkKfQoKZnVuY3Rpb24gVHdpdHRlckljb24oeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8c3ZnIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9ImN1cnJlbnRDb2xvciI+CiAgICAgIDxwYXRoIGQ9Ik0xOC4yNDQgMi4yNWgzLjMwOGwtNy4yMjcgOC4yNiA4LjUwMiAxMS4yNEgxNi4xN2wtNS4yMTQtNi44MTdMNC45OSAyMS43NUgxLjY4bDcuNzMtOC44MzVMMS4yNTQgMi4yNUg4LjA4bDQuNzEzIDYuMjMxem0tMS4xNjEgMTcuNTJoMS44MzNMNy4wODQgNC4xMjZINS4xMTd6IiAvPgogICAgPC9zdmc+CiAgKQp9CgpmdW5jdGlvbiBZb3V0dWJlSWNvbih7IGNsYXNzTmFtZSB9OiB7IGNsYXNzTmFtZT86IHN0cmluZyB9KSB7CiAgcmV0dXJuICgKICAgIDxzdmcgY2xhc3NOYW1lPXtjbGFzc05hbWV9IHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIj4KICAgICAgPHBhdGggZD0iTTIzLjQ5OCA2LjE4NmEzLjAxNiAzLjAxNiAwIDAwLTIuMTIyLTIuMTM2QzE5LjUwNSAzLjU0NSAxMiAzLjU0NSAxMiAzLjU0NXMtNy41MDUgMC05LjM3Ny41MDVBMy4wMTcgMy4wMTcgMCAwMC41MDIgNi4xODZDMCA4LjA3IDAgMTIgMCAxMnMwIDMuOTMuNTAyIDUuODE0YTMuMDE2IDMuMDE2IDAgMDAyLjEyMiAyLjEzNmMxLjg3MS41MDUgOS4zNzYuNTA1IDkuMzc2LjUwNXM3LjUwNSAwIDkuMzc3LS41MDVhMy4wMTUgMy4wMTUgMCAwMDIuMTIyLTIuMTM2QzI0IDE1LjkzIDI0IDEyIDI0IDEyczAtMy45My0uNTAyLTUuODE0ek05LjU0NSAxNS41NjhWOC40MzJMMTUuODE4IDEybC02LjI3MyAzLjU2OHoiIC8+CiAgICA8L3N2Zz4KICApCn0KCmZ1bmN0aW9uIFR3aXRjaEljb24oeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8c3ZnIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9ImN1cnJlbnRDb2xvciI+CiAgICAgIDxwYXRoIGQ9Ik0xMS41NzEgNC43MTRoMS43MTV2NS4xNDNIMTEuNTd6bTQuNzE1IDBIMTh2NS4xNDNoLTEuNzE0ek02IDBMMS43MTQgNC4yODZ2MTUuNDI4aDUuMTQzVjI0bDQuMjg2LTQuMjg2aDMuNDI4TDIyLjI4NiAxMlYwem0xNC41NzEgMTEuMTQzbC0zLjQyOCAzLjQyOGgtMy40MjlsLTMgM3YtM0g2Ljg1N1YxLjcxNGgxMy43MTR6IiAvPgogICAgPC9zdmc+CiAgKQp9CgpleHBvcnQgZnVuY3Rpb24gRm9vdGVyKCkgewogIHJldHVybiAoCiAgICA8Zm9vdGVyIGNsYXNzTmFtZT0iYm9yZGVyLXQgYmctbXV0ZWQvMzAiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCBweS0xMiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTggc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQiPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1sZyBmb250LWJvbGQgbWItMyI+CiAgICAgICAgICAgICAgPEdhbWVwYWQyIGNsYXNzTmFtZT0ic2l6ZS01IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJnLWdyYWRpZW50LXRvLXIgZnJvbS1wcmltYXJ5IHRvLXB1cnBsZS01MDAgYmctY2xpcC10ZXh0IHRleHQtdHJhbnNwYXJlbnQiPkdhbWVWZXJzZTwvc3Bhbj4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTQiPlRoZSB1bHRpbWF0ZSBnYW1pbmcgcGxhdGZvcm0uIERpc2NvdmVyLCBwbGF5LCBhbmQgY29ubmVjdCB3aXRoIGdhbWVycyB3b3JsZHdpZGUuPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9Imljb24iIGFzQ2hpbGQ+PGEgaHJlZj0iIyI+PEdpdGh1Ykljb24gY2xhc3NOYW1lPSJzaXplLTQiIC8+PC9hPjwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9Imljb24iIGFzQ2hpbGQ+PGEgaHJlZj0iIyI+PFR3aXR0ZXJJY29uIGNsYXNzTmFtZT0ic2l6ZS00IiAvPjwvYT48L0J1dHRvbj4KICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJpY29uIiBhc0NoaWxkPjxhIGhyZWY9IiMiPjxZb3V0dWJlSWNvbiBjbGFzc05hbWU9InNpemUtNCIgLz48L2E+PC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgYXNDaGlsZD48YSBocmVmPSIjIj48VHdpdGNoSWNvbiBjbGFzc05hbWU9InNpemUtNCIgLz48L2E+PC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJtYi0zIHRleHQtc20gZm9udC1zZW1pYm9sZCI+UXVpY2sgTGlua3M8L2gzPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9nYW1lcyIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWZvcmVncm91bmQiPkFsbCBHYW1lczwvTGluaz4KICAgICAgICAgICAgICA8TGluayB0bz0iL2xlYWRlcmJvYXJkIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+TGVhZGVyYm9hcmQ8L0xpbms+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9uZXdzIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+TmV3czwvTGluaz4KICAgICAgICAgICAgICA8TGluayB0bz0iL3Byb2ZpbGUiIGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIj5NeSBQcm9maWxlPC9MaW5rPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibWItMyB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQiPkNhdGVnb3JpZXM8L2gzPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9nYW1lcyIgc2VhcmNoPXt7IGNhdGVnb3J5OiAiYWN0aW9uIiB9fSBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+QWN0aW9uPC9MaW5rPgogICAgICAgICAgICAgIDxMaW5rIHRvPSIvZ2FtZXMiIHNlYXJjaD17eyBjYXRlZ29yeTogInJwZyIgfX0gY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWZvcmVncm91bmQiPlJQRzwvTGluaz4KICAgICAgICAgICAgICA8TGluayB0bz0iL2dhbWVzIiBzZWFyY2g9e3sgY2F0ZWdvcnk6ICJzdHJhdGVneSIgfX0gY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWZvcmVncm91bmQiPlN0cmF0ZWd5PC9MaW5rPgogICAgICAgICAgICAgIDxMaW5rIHRvPSIvZ2FtZXMiIHNlYXJjaD17eyBjYXRlZ29yeTogInJhY2luZyIgfX0gY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWZvcmVncm91bmQiPlJhY2luZzwvTGluaz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9Im1iLTMgdGV4dC1zbSBmb250LXNlbWlib2xkIj5TdGF5IFVwZGF0ZWQ8L2gzPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTMiPlN1YnNjcmliZSB0byBvdXIgbmV3c2xldHRlciBmb3IgdGhlIGxhdGVzdCBnYW1pbmcgbmV3cyBhbmQgZGVhbHMuPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgPElucHV0IHBsYWNlaG9sZGVyPSJFbnRlciB5b3VyIGVtYWlsIiBjbGFzc05hbWU9InRleHQtc20iIC8+CiAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSI+U3Vic2NyaWJlPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPFNlcGFyYXRvciBjbGFzc05hbWU9Im15LTgiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBzbTpmbGV4LXJvdyI+CiAgICAgICAgICA8cD4mY29weTsgMjAyNSBHYW1lVmVyc2UuIEFsbCByaWdodHMgcmVzZXJ2ZWQuPC9wPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTQiPgogICAgICAgICAgICA8YSBocmVmPSIjIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+UHJpdmFjeSBQb2xpY3k8L2E+CiAgICAgICAgICAgIDxhIGhyZWY9IiMiIGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1mb3JlZ3JvdW5kIj5UZXJtcyBvZiBTZXJ2aWNlPC9hPgogICAgICAgICAgICA8YSBocmVmPSIjIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtZm9yZWdyb3VuZCI+Q29udGFjdDwvYT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZm9vdGVyPgogICkKfQo=
+import { Link } from "@tanstack/react-router"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Gamepad2 } from "lucide-react"
+
+function GithubIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+    </svg>
+  )
+}
+
+function TwitterIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  )
+}
+
+function YoutubeIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+    </svg>
+  )
+}
+
+function TwitchIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z" />
+    </svg>
+  )
+}
+
+export function Footer() {
+  return (
+    <footer className="border-t bg-muted/30">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <Link to="/" className="flex items-center gap-2 text-lg font-bold mb-3">
+              <Gamepad2 className="size-5 text-primary" />
+              <span className="bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">GameVerse</span>
+            </Link>
+            <p className="text-sm text-muted-foreground mb-4">The ultimate gaming platform. Discover, play, and connect with gamers worldwide.</p>
+            <div className="flex items-center gap-2">
+              <Button variant="ghost" size="icon" asChild><a href="#"><GithubIcon className="size-4" /></a></Button>
+              <Button variant="ghost" size="icon" asChild><a href="#"><TwitterIcon className="size-4" /></a></Button>
+              <Button variant="ghost" size="icon" asChild><a href="#"><YoutubeIcon className="size-4" /></a></Button>
+              <Button variant="ghost" size="icon" asChild><a href="#"><TwitchIcon className="size-4" /></a></Button>
+            </div>
+          </div>
+          <div>
+            <h3 className="mb-3 text-sm font-semibold">Quick Links</h3>
+            <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+              <Link to="/games" className="hover:text-foreground">All Games</Link>
+              <Link to="/leaderboard" className="hover:text-foreground">Leaderboard</Link>
+              <Link to="/news" className="hover:text-foreground">News</Link>
+              <Link to="/profile" className="hover:text-foreground">My Profile</Link>
+            </div>
+          </div>
+          <div>
+            <h3 className="mb-3 text-sm font-semibold">Categories</h3>
+            <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+              <Link to="/games" search={{ category: "action" }} className="hover:text-foreground">Action</Link>
+              <Link to="/games" search={{ category: "rpg" }} className="hover:text-foreground">RPG</Link>
+              <Link to="/games" search={{ category: "strategy" }} className="hover:text-foreground">Strategy</Link>
+              <Link to="/games" search={{ category: "racing" }} className="hover:text-foreground">Racing</Link>
+            </div>
+          </div>
+          <div>
+            <h3 className="mb-3 text-sm font-semibold">Stay Updated</h3>
+            <p className="text-sm text-muted-foreground mb-3">Subscribe to our newsletter for the latest gaming news and deals.</p>
+            <div className="flex gap-2">
+              <Input placeholder="Enter your email" className="text-sm" />
+              <Button size="sm">Subscribe</Button>
+            </div>
+          </div>
+        </div>
+        <Separator className="my-8" />
+        <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-muted-foreground sm:flex-row">
+          <p>&copy; 2025 GameVerse. All rights reserved.</p>
+          <div className="flex gap-4">
+            <a href="#" className="hover:text-foreground">Privacy Policy</a>
+            <a href="#" className="hover:text-foreground">Terms of Service</a>
+            <a href="#" className="hover:text-foreground">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
