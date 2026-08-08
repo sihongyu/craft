@@ -13,3 +13,7 @@ todos.json
 
 # typescript
 *.tsbuildinfo
+
+# local
+server.log
+$null
