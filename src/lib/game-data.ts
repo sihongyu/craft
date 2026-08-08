@@ -260,6 +260,11 @@ export const newsItems = [
   },
 ]
 
+// Alias exports for backward compatibility
+export const allGames = games
+export const categories = gameCategories
+export const latestNews = newsItems
+
 export const featuredTournaments = [
   {
     id: "t1",
