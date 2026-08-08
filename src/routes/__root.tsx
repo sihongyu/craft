@@ -1,44 +1,37 @@
-import type { ReactNode } from "react"
-import { DefaultCatchBoundary } from "@tanstack/react-router"
-import {
-  Link,
-  Outlet,
-  createRootRoute,
-  HeadContent,
-  Scripts,
-} from "@tanstack/react-router"
-import appCss from "../styles.css?url"
-import { Button } from "@/components/ui/button"
+import { Outlet, createRootRoute } from "@tanstack/react-router"
+import { Meta, Scripts } from "@tanstack/react-start"
+import { Navbar } from "@/components/Navbar"
+import { Footer } from "@/components/Footer"
+import appCss from "@/styles.css?url"
 
 export const Route = createRootRoute({
   head: () => ({
-    links: [{ rel: "stylesheet", href: appCss }],
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "GameVerse - Your Ultimate Gaming Destination" },
+      { name: "description", content: "Discover, play, and compete in the best games. GameVerse brings you the latest gaming news, reviews, and a vibrant community." },
+    ],
+    links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", href: "/favicon.ico" },
+    ],
   }),
-  errorComponent: DefaultCatchBoundary,
   component: RootComponent,
 })
 
 function RootComponent() {
   return (
-    <RootDocument>
-      <Outlet />
-    </RootDocument>
-  )
-}
-
-function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
-  return (
-    <html>
+    <html lang="en" className="dark">
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <HeadContent />
+        <Meta />
       </head>
-      <body>
-        <div className="felx">
-          <Button variant={"outline"}>Click me</Button>
-        </div>
-        {children}
+      <body className="min-h-screen bg-background font-sans text-foreground antialiased">
+        <Navbar />
+        <main className="min-h-[calc(100vh-64px)]">
+          <Outlet />
+        </main>
+        <Footer />
         <Scripts />
       </body>
     </html>
