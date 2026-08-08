@@ -1,0 +1,10 @@
+{
+  "short_name": "craft",
+  "name": "craft",
+  "start_url": "/",
+  "id": "/",
+  "display": "minimal-ui",
+  "display_override": ["window-controls-overlay"],
+  "orientation": "any",
+  "scope": "/"
+}
